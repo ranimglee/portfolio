@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Ranim's Portfolio - DevOps</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.png" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Ranim Abassi</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://linkedin.com/in/ranim-abassi" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/ranimglee" class="github" target="_blank"><i class="bi bi-github"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">DevOps Project</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/devops/pipeline0.jpg" alt="Pipeline architecture">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/devops/coverage.jpg" alt="SonarQube and coverage metrics">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/portfolio/devops/dockerhub.jpg" alt="DockerHub">
+                  </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/devops/nexus.jpg" alt="Nexus artifact repository">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/devops/jenkins metrics.jpg" alt="Monitoring jenkins with Grafana">
+                </div>
+                
+                <div class="swiper-slide">
+                    <img src="assets/img/portfolio/devops/springboot metrics.jpg" alt="Monitoring SpringBoot with Grafana">
+                  </div>
+                  
+                <div class="swiper-slide">
+                    <img src="assets/img/portfolio/devops/dockerRepo nexus.jpg" alt="Deploying to Nexus">
+                  </div>
+                  
+                <div class="swiper-slide">
+                    <img src="assets/img/portfolio/devops/prometheus.jpg" alt="Monitoring with Prometheus ">
+                  </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project Information</h3>
+              <ul class="info-list">
+                <li>
+                  <i class="bi bi-briefcase"></i>
+                  <strong>Category:</strong> DevOps
+                </li>
+                <li>
+                  <i class="bi bi-tools"></i>
+                  <strong>Tools Used:</strong> Jenkins, Docker, Nexus, SonarQube, Prometheus, Grafana
+                </li>
+                <li>
+                  <i class="bi bi-calendar-event"></i>
+                  <strong>Project Date:</strong> October 2024
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-lg-12">
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2 class="project-title">Efficient and Secure CI/CD Pipeline</h2>
+              <p class="project-summary">
+                This DevOps project aimed to build a robust CI/CD pipeline with key features including full automation, centralized artifact management, quality assurance, and advanced performance monitoring.
+              </p>
+          
+              <div class="project-details">
+                <ul class="details-list">
+                  <li>
+                    <i class="bi bi-diagram-3"></i>
+                    <strong>Architecture:</strong> Git for versioning, Docker Compose for orchestration, Nexus for artifacts, Jenkins for automation, and SonarQube for quality assurance.
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle"></i>
+                    <strong>Unit Testing:</strong> Comprehensive tests with JUnit and Mockito to ensure code reliability and integrity.
+                  </li>
+                  <li>
+                    <i class="bi bi-bar-chart"></i>
+                    <strong>Metrics:</strong> Application metrics collected using Spring Boot Actuator for in-depth insights.
+                  </li>
+                  <li>
+                    <i class="bi bi-envelope"></i>
+                    <strong>Notifications:</strong> Email notifications for build and deployment status updates.
+                  </li>
+                  <li>
+                    <i class="bi bi-link-45deg"></i>
+                    <strong>Public Access:</strong> Exposed services securely using ngrok for testing and external access.
+                  </li>
+                  <li>
+                    <i class="bi bi-speedometer2"></i>
+                    <strong>Monitoring:</strong> Prometheus and Grafana for real-time performance tracking and visualization.
+                  </li>
+                  <li>
+                    <i class="bi bi-trophy"></i>
+                    <strong>Outcome:</strong> A fast, secure, and reliable pipeline ensuring compliance and deployment efficiency.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <style>
+            .info-list li {
+              margin-bottom: 10px;
+              display: flex;
+              align-items: center;
+            }
+          
+            .info-list li i {
+              margin-right: 10px;
+              color: #007bff;
+              font-size: 18px;
+            }
+          
+            .project-title {
+              color: #1a1a1a;
+              font-weight: bold;
+              margin-bottom: 20px;
+            }
+          
+            .project-summary {
+              font-size: 16px;
+              line-height: 1.6;
+              margin-bottom: 30px;
+            }
+          
+            .project-details {
+              margin-top: 30px;
+            }
+          
+            .details-list li {
+              margin-bottom: 15px;
+              display: flex;
+              align-items: center;
+            }
+          
+            .details-list li i {
+              margin-right: 10px;
+              color: #007bff;
+              font-size: 18px;
+            }
+          </style>
+          
+
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background"></footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
